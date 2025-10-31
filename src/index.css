@@ -1,0 +1,348 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Light Theme (Default) */
+body.light-theme {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  min-height: 100vh;
+  transition: background 0.3s ease;
+}
+
+/* Dark Theme */
+body.dark-theme {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%);
+  min-height: 100vh;
+  transition: background 0.3s ease;
+}
+
+/* Dark theme card styles */
+body.dark-theme .card,
+body.dark-theme .weather-card,
+body.dark-theme .settings-section,
+body.dark-theme .city-header,
+body.dark-theme .chart-section,
+body.dark-theme .forecast-section,
+body.dark-theme .weather-stats {
+  background: #2d2d44;
+  color: #e5e7eb;
+}
+
+body.dark-theme h1,
+body.dark-theme h2,
+body.dark-theme h3,
+body.dark-theme .user-name,
+body.dark-theme .stat-value,
+body.dark-theme .temp-value,
+body.dark-theme .city-name,
+body.dark-theme .option-title,
+body.dark-theme .weather-info h3,
+body.dark-theme .daily-day,
+body.dark-theme .hourly-time,
+body.dark-theme .info-value,
+body.dark-theme .detail-value,
+body.dark-theme .hourly-temp,
+body.dark-theme .temp-high,
+body.dark-theme .temp-low {
+  color: #e5e7eb !important;
+}
+
+body.dark-theme p,
+body.dark-theme .weather-desc,
+body.dark-theme .stat-label,
+body.dark-theme .detail-label,
+body.dark-theme .option-desc,
+body.dark-theme .info-label,
+body.dark-theme .weather-condition,
+body.dark-theme .stat-sub,
+body.dark-theme .daily-full-date,
+body.dark-theme .hourly-desc,
+body.dark-theme .hourly-wind,
+body.dark-theme .daily-condition,
+body.dark-theme .city-coords,
+body.dark-theme .last-updated,
+body.dark-theme .auth-prompt p {
+  color: #9ca3af !important;
+}
+
+body.dark-theme .header {
+  background: #2d2d44;
+  border-bottom: 1px solid #4a4a6a;
+}
+
+body.dark-theme .logo {
+  color: #a78bfa !important;
+}
+
+body.dark-theme .search-input,
+body.dark-theme .search-results {
+  background: #2d2d44;
+  color: #e5e7eb;
+  border-color: #4a4a6a;
+}
+
+body.dark-theme .search-input::placeholder {
+  color: #6b7280;
+}
+
+body.dark-theme .search-result-item:hover {
+  background: #3a3a54;
+}
+
+body.dark-theme .hourly-item,
+body.dark-theme .daily-item,
+body.dark-theme .stat-card {
+  background: #3a3a54;
+}
+
+body.dark-theme .hourly-item:hover,
+body.dark-theme .daily-item:hover {
+  background: #4a4a6a;
+}
+
+body.dark-theme .setting-option {
+  background: #3a3a54;
+  border-color: #4a4a6a;
+  color: #e5e7eb;
+}
+
+body.dark-theme .setting-option:hover {
+  background: #4a4a6a;
+}
+
+body.dark-theme .setting-option.active {
+  background: #5a4a8a;
+  border-color: #7c6fb8;
+}
+
+body.dark-theme .info-box {
+  background: #3a3a54;
+  border-left-color: #7c6fb8;
+}
+
+body.dark-theme .info-box p {
+  color: #9ca3af !important;
+}
+
+body.dark-theme .info-box strong {
+  color: #e5e7eb !important;
+}
+
+body.dark-theme .back-btn {
+  background: #3a3a54;
+  color: #a78bfa;
+}
+
+body.dark-theme .back-btn:hover {
+  background: #4a4a6a;
+}
+
+body.dark-theme .icon-btn {
+  color: #a78bfa;
+}
+
+body.dark-theme .icon-btn:hover {
+  background: #3a3a54;
+}
+
+body.dark-theme .auth-prompt {
+  background: #2d2d44;
+}
+
+body.dark-theme .user-info h3 {
+  color: #e5e7eb !important;
+}
+
+body.dark-theme .user-info p {
+  color: #9ca3af !important;
+}
+
+body.dark-theme .main-weather {
+  background: linear-gradient(135deg, #5a4a8a 0%, #4a3a7a 100%);
+}
+
+body.dark-theme .stat-icon {
+  color: #a78bfa;
+}
+
+body.dark-theme .additional-info {
+  background: #3a3a54;
+}
+
+body.dark-theme .daily-details .detail {
+  color: #9ca3af;
+}
+
+body.dark-theme .temp-divider {
+  color: #6b7280;
+}
+
+body.dark-theme .favorite-btn {
+  background: #3a3a54;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+}
+
+body.dark-theme .favorite-btn:hover {
+  background: #4a4a6a;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4);
+}
+
+body.dark-theme .history-section {
+  background: #2d2d44;
+}
+
+body.dark-theme .history-header h3 {
+  color: #e5e7eb !important;
+}
+
+body.dark-theme .history-icon {
+  color: #a78bfa;
+}
+
+body.dark-theme .history-item {
+  background: #3a3a54;
+  border-color: transparent;
+}
+
+body.dark-theme .history-item:hover {
+  background: #4a4a6a;
+  border-color: #a78bfa;
+}
+
+body.dark-theme .history-city-name {
+  color: #e5e7eb;
+}
+
+body.dark-theme .history-time {
+  color: #9ca3af;
+}
+
+body.dark-theme .clear-history-btn:hover {
+  background: rgba(239, 68, 68, 0.2);
+}
+
+/* Default body styles for fallback */
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  min-height: 100vh;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.container {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.card {
+  background: white;
+  border-radius: 12px;
+  padding: 20px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 12px rgba(0, 0, 0, 0.15);
+}
+
+.btn {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.btn-primary {
+  background: #667eea;
+  color: white;
+}
+
+.btn-primary:hover {
+  background: #5568d3;
+}
+
+.btn-secondary {
+  background: #f3f4f6;
+  color: #374151;
+}
+
+.btn-secondary:hover {
+  background: #e5e7eb;
+}
+
+.input {
+  width: 100%;
+  padding: 12px 16px;
+  border: 2px solid #e5e7eb;
+  border-radius: 8px;
+  font-size: 16px;
+  transition: border-color 0.2s;
+}
+
+.input:focus {
+  outline: none;
+  border-color: #667eea;
+}
+
+.loading {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 200px;
+}
+
+.spinner {
+  border: 4px solid #f3f4f6;
+  border-top: 4px solid #667eea;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+.error {
+  background: #fee;
+  color: #c00;
+  padding: 12px 16px;
+  border-radius: 8px;
+  margin: 10px 0;
+}
+
+.success {
+  background: #efe;
+  color: #080;
+  padding: 12px 16px;
+  border-radius: 8px;
+  margin: 10px 0;
+}

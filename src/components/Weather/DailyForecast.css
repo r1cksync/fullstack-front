@@ -1,0 +1,87 @@
+.daily-forecast {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 16px;
+}
+
+.daily-item {
+  background: #f9fafb;
+  padding: 20px;
+  border-radius: 12px;
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.daily-item:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.daily-date {
+  margin-bottom: 12px;
+}
+
+.daily-day {
+  font-size: 18px;
+  font-weight: 600;
+  color: #1f2937;
+}
+
+.daily-full-date {
+  font-size: 14px;
+  color: #6b7280;
+}
+
+.daily-icon {
+  font-size: 48px;
+  text-align: center;
+  margin: 12px 0;
+}
+
+.daily-condition {
+  text-align: center;
+  color: #6b7280;
+  font-size: 14px;
+  text-transform: capitalize;
+  margin-bottom: 12px;
+}
+
+.daily-temps {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  font-size: 24px;
+  margin-bottom: 12px;
+}
+
+.temp-high {
+  font-weight: 700;
+  color: #ef4444;
+}
+
+.temp-low {
+  font-weight: 600;
+  color: #3b82f6;
+}
+
+.temp-divider {
+  color: #9ca3af;
+}
+
+.daily-details {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 12px;
+  border-top: 1px solid #e5e7eb;
+}
+
+.detail {
+  font-size: 14px;
+  color: #6b7280;
+}
+
+@media (max-width: 768px) {
+  .daily-forecast {
+    grid-template-columns: 1fr;
+  }
+}
