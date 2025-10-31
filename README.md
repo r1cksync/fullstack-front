@@ -2,6 +2,10 @@
 
 A modern, responsive weather dashboard built with React, Redux Toolkit, and Recharts.
 
+Live Website Link : https://fullstack-front-git-main-sagniks-projects-552eca26.vercel.app/
+
+video demonstration of website:
+
 ## Features
 
 - 🌦️ **Real-time Weather Data** - Current conditions and forecasts
