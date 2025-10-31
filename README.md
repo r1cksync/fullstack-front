@@ -6,6 +6,9 @@ Live Website Link : https://fullstack-front-git-main-sagniks-projects-552eca26.v
 
 video demonstration of website:
 
+github repo of backend: https://github.com/r1cksync/fullstack-back
+
+
 ## Features
 
 - 🌦️ **Real-time Weather Data** - Current conditions and forecasts
