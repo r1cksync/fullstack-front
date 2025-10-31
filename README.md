@@ -2,9 +2,9 @@
 
 A modern, responsive weather dashboard built with React, Redux Toolkit, and Recharts.
 
-Live Website Link : https://fullstack-front-git-main-sagniks-projects-552eca26.vercel.app/
+Live Website Link : https://fullstack-front-green.vercel.app/
 
-video demonstration of website:
+video demonstration of website: https://drive.google.com/file/d/1klRaP6oUF13uFuEVFh2V2Zcl9HuD_HLJ/view?usp=sharing
 
 github repo of backend: https://github.com/r1cksync/fullstack-back
 
